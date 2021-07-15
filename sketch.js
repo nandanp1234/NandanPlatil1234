@@ -21,7 +21,7 @@ function preload(){
 
 function setup(){
   
-  createCanvas(400,600);
+  createCanvas(windowWidth,windowHeight);
 // Moving background
 path=createSprite(width/2,200);
 path.addImage(pathImg);
